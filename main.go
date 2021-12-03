@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+import "rsc.io/quote"
+
 func main() {
-	fmt.Println("Life is Beautiful")
+	fmt.Println(quote.Go())
 }
